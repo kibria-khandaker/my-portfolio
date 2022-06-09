@@ -1,33 +1,66 @@
-.App {
-  text-align: center;
+/* kibria inside_effect btn style  */
+.kib_inside_effect {
+  background: #ebecf0;
+  outline: none;
+  border: none;
+  color: #8a92a5;
+  box-shadow: -4px -4px 12px rgb(255, 255, 255),
+    4px 4px 12px rgba(121, 130, 160, 0.747);
+  font-family: "Poppins", sans-serif;
+}
+.kib_inside_effect:hover {
+  box-shadow: inset -2px -2px 6px rgb(255, 255, 255),
+    inset 2px 2px 6px rgba(121, 130, 160, 0.747);
+  color: #0ab299;
 }
 
+.kib_box_shadow{
+  /* background: linear-gradient(145deg, #dbdbdb, #fdffff); */
+  background:#ebecf0;
+  box-shadow: -4px -4px 12px rgb(255, 255, 255),
+  4px 4px 12px rgba(121, 130, 160, 0.747);
+}
+.gradient_text_box{
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#30cfd0),
+    to(#330867)
+  );
+  background: linear-gradient(to right, #185ef0, #30cfd0);
+  /* background: linear-gradient(to right,#fd4475, #30cfd0 ); */
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Logo Rotate Css start */
+/* <img src={logo} className="App-logo" alt="logo" /> */
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
-
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -36,3 +69,4 @@
     transform: rotate(360deg);
   }
 }
+/* Logo Rotate Css End */
