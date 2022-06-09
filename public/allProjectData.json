@@ -4,59 +4,79 @@
     "name": "Construction Tools Manufacturer",
     "category": "React",
     "pType": "Fullstack Project",
-    "pUrl":"https://construction-tools-36dcf.web.app/",
+    "pUrl": "https://construction-tools-36dcf.web.app/",
     "technology": "",
     "shortText": "Looking for the best car wash & car cleaning services at home? We are trusted & skilled auto mechanics & service providers in Bangladesh. Book now!",
     "img1": "https://i.ibb.co/3kVSXPd/light-mode-1.jpg",
     "img2": "https://i.ibb.co/3kVSXPd/light-mode-1.jpg",
-    "img3": "https://i.ibb.co/3kVSXPd/light-mode-1.jpg"
+    "allImg": [
+      "https://i.ibb.co/3kVSXPd/light-mode-1.jpg",
+      "https://i.ibb.co/3kVSXPd/light-mode-1.jpg",
+      "https://i.ibb.co/3kVSXPd/light-mode-1.jpg"
+    ]
   },
   {
     "_id": 2,
     "name": "a-smart-cleaner",
     "category": "React",
     "pType": "Front end Project",
-    "pUrl":"https://a-smart-cleaner.web.app/",
+    "pUrl": "https://a-smart-cleaner.web.app/",
     "technology": "",
     "shortText": "We are a comprehensive garden cleaning and maintenance company. Get your weekends back, and let our gardening team take care of your gardening.",
     "img1": "https://i.ibb.co/qdZN1FD/light-mode-2.jpg",
     "img2": "https://i.ibb.co/qdZN1FD/light-mode-2.jpg",
-    "img3": "https://i.ibb.co/qdZN1FD/light-mode-2.jpg"
+    "allImg": [
+      "https://i.ibb.co/3kVSXPd/light-mode-1.jpg",
+      "https://i.ibb.co/3kVSXPd/light-mode-1.jpg",
+      "https://i.ibb.co/3kVSXPd/light-mode-1.jpg"
+    ]
   },
   {
     "_id": 3,
     "name": "Fruits Stock House",
     "category": "React",
     "pType": "Fullstack Project",
-    "pUrl":"https://fruits-stock-house.web.app/",
+    "pUrl": "https://fruits-stock-house.web.app/",
     "technology": "",
     "shortText": "This service will help you to clean your home and also help to remove deep stains. Our Service provider will use effective chemicals that will wash your home smoothly and neatly.",
     "img1": "https://i.ibb.co/5k9xgsM/light-mode-3.jpg",
     "img2": "https://i.ibb.co/5k9xgsM/light-mode-3.jpg",
-    "img3": "https://i.ibb.co/5k9xgsM/light-mode-3.jpg"
+    "allImg": [
+      "https://i.ibb.co/3kVSXPd/light-mode-1.jpg",
+      "https://i.ibb.co/3kVSXPd/light-mode-1.jpg",
+      "https://i.ibb.co/3kVSXPd/light-mode-1.jpg"
+    ]
   },
   {
     "_id": 4,
     "name": "Watch Review",
     "category": "React",
     "pType": "React Front end Project",
-    "pUrl":"https://vermillion-cocada-8ce3b2.netlify.app/",
+    "pUrl": "https://vermillion-cocada-8ce3b2.netlify.app/",
     "technology": "",
     "shortText": "We offer Road Cleaning Services that ensure to keep the roads clean and litter free. Our experienced cleaners and sweepers aim at high quality standards and work in a smart and efficient manner.",
     "img1": "https://i.ibb.co/hCCJwGt/light-mode-4.jpg",
     "img2": "https://i.ibb.co/hCCJwGt/light-mode-4.jpg",
-    "img3": "https://i.ibb.co/hCCJwGt/light-mode-4.jpg"
+    "allImg": [
+      "https://i.ibb.co/3kVSXPd/light-mode-1.jpg",
+      "https://i.ibb.co/3kVSXPd/light-mode-1.jpg",
+      "https://i.ibb.co/3kVSXPd/light-mode-1.jpg"
+    ]
   },
   {
     "_id": 5,
     "name": "Painting Gallery",
     "category": "React",
     "pType": "React Front end Project",
-    "pUrl":"https://stately-khapse-be55d2.netlify.app/",
+    "pUrl": "https://stately-khapse-be55d2.netlify.app/",
     "technology": "",
     "shortText": "We offer Road Cleaning Services that ensure to keep the roads clean and litter free. Our experienced cleaners and sweepers aim at high quality standards and work in a smart and efficient manner.",
     "img1": "https://i.ibb.co/KVRzzzc/light-mode-5.jpg",
     "img2": "https://i.ibb.co/KVRzzzc/light-mode-5.jpg",
-    "img3": "https://i.ibb.co/KVRzzzc/light-mode-5.jpg"
+    "allImg": [
+      "https://i.ibb.co/3kVSXPd/light-mode-1.jpg",
+      "https://i.ibb.co/3kVSXPd/light-mode-1.jpg",
+      "https://i.ibb.co/3kVSXPd/light-mode-1.jpg"
+    ]
   }
 ]

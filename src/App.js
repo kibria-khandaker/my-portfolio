@@ -8,6 +8,7 @@ import ReactProjects from './components/Pages/ReactProjects/ReactProjects';
 import WordPressProjects from './components/Pages/WordPressProjects/WordPressProjects';
 import MyPortfolio from './components/Pages/MyPortfolio';
 import MyProjectDetails from './components/Pages/MyProjectDetails';
+import Contact from './components/Pages/Contact';
 // import HeroSection from './components/Common/HeroSection/HeroSection';
 
 function App() {
@@ -20,6 +21,8 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/home" element={<Home />} />
         <Route path="/MyPortfolio" element={<MyPortfolio/> } />
+        <Route path="/Contact" element={<Contact/> } />
+        
         <Route path="/projectDetails/:id" element={<MyProjectDetails/> } />
         <Route path="/JavaScriptProjects" element={<JavaScriptProjects/> } />
         <Route path="/ReactProjects" element={<ReactProjects/> } />

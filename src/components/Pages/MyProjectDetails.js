@@ -9,17 +9,18 @@ const MyProjectDetails = () => {
 
     const { id } = useParams();
     useEffect(() => {
-        let project = projects?.find(p => p?.id == id)
+        let project = projects?.find(p => p?._id == id)
         setSingleItems(project);
     }, [projects, id])
 
+// console.log('projects', projects);
+// console.log('singleItems', singleItems);
 
     return (
         <div>
             <p>{id}</p>
-            <p>{singleItems?.length}</p>
             <p>{singleItems?.name}</p>
-        </div>
+        </div> 
     );
 };
 

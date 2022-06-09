@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const NaveBar = ({children}) => {
+const NaveBar = ({ children }) => {
   return (
     <div className="drawer drawer-mobile bg-[#ecf0f3]">
       <input id="myMainSideBarMenu" type="checkbox" className="drawer-toggle" />
@@ -17,11 +17,10 @@ const NaveBar = ({children}) => {
         <ul className="menu p-4 overflow-y-auto w-60 text-base-content">
           {/* <!-- Sidebar content here -->  */}
           <li><Link className='kib_inside_effect mt-4' to='/'>Home</Link></li>
+          <li><Link className='kib_inside_effect mt-4' to='/Contact'>Contact Me</Link></li>
           <li><Link className='kib_inside_effect mt-4' to='/MyPortfolio'> My Projects </Link></li>
-          <li><Link className='kib_inside_effect mt-4' to='/JavaScriptProjects'>Contact Me</Link></li>
-          <li><Link className='kib_inside_effect mt-4' to='/about'>About Me</Link></li>
-          
-          <li><Link className='kib_inside_effect mt-4' to='/JavaScriptProjects'> Typography </Link></li>
+          {/* <li><Link className='kib_inside_effect mt-4' to='/about'>About Me</Link></li> */}
+          {/* <li><Link className='kib_inside_effect mt-4' to='/JavaScriptProjects'> Typography </Link></li> */}
         </ul>
 
       </div>
