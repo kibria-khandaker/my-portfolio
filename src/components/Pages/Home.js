@@ -1,7 +1,6 @@
 import React from 'react';
 import { FaGithubSquare, FaLinkedin } from "react-icons/fa";
 import myImg from '../../Assets/img/golam-kibria.png';
-import './Home.css';
 
 const Home = () => {
     return (

@@ -19,8 +19,6 @@ const NaveBar = ({ children }) => {
           <li><Link className='kib_inside_effect mt-4' to='/'>Home</Link></li>
           <li><Link className='kib_inside_effect mt-4' to='/Contact'>Contact Me</Link></li>
           <li><Link className='kib_inside_effect mt-4' to='/MyPortfolio'> My Projects </Link></li>
-          {/* <li><Link className='kib_inside_effect mt-4' to='/about'>About Me</Link></li> */}
-          {/* <li><Link className='kib_inside_effect mt-4' to='/JavaScriptProjects'> Typography </Link></li> */}
         </ul>
 
       </div>
