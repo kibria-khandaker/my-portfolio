@@ -3,7 +3,9 @@
   background: #ebecf0;
   outline: none;
   border: none;
-  color: #8a92a5;
+  /* color: #8a92a5; */
+  border: none;
+  outline: none;
   box-shadow: -4px -4px 12px rgb(255, 255, 255),
     4px 4px 12px rgba(121, 130, 160, 0.747);
   font-family: "Poppins", sans-serif;
