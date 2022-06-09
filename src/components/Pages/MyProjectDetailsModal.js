@@ -12,7 +12,10 @@ const MyProjectDetailsModal = ({ modalProjectData }) => {
                 <label for="my-modal-6" class="btn btn-sm btn-circle absolute right-2 top-2">✕</label>
 
                     <h3 className="font-bold text-lg"> {modalProjectData?.name} </h3>
-                    <img src={modalProjectData?.img1} alt="" />
+                    <img className='w-2/6' src={modalProjectData?.allImg[0]} alt="" />
+
+                    <img className='w-2/6' src={modalProjectData?.allImg[2]} alt="" />
+                    <img className='w-2/6' src={modalProjectData?.img1} alt="" />
                     <p className="py-4">
                         <p>{modalProjectData?.name}</p>
                     </p>
