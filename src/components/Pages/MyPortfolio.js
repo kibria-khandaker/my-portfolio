@@ -32,9 +32,9 @@ const MyPortfolio = () => {
                             <p className='text-center font-thin bg-black text-white py-2'>{project.name}</p>
                             <figure><img src={project.img1} alt="Shoes" /></figure>
 
-                            <label onClick={() => setModalProjectData(project)} htmlFor="my-modal-6" className="btn modal-button">open modal</label>
+                            <label onClick={() => setModalProjectData(project)} htmlFor="my-modal-6" className="btn btn-ghost rounded-none rounded-b"> Projects Details </label>
 
-                            <button onClick={() => handleDetail(project._id)} className="btn btn-ghost rounded-none rounded-b"> Projects Details </button>
+                            {/* <button onClick={() => handleDetail(project._id)} className="btn btn-ghost rounded-none rounded-b"> Projects Details </button> */}
                         </div>
                     ))
                 }
