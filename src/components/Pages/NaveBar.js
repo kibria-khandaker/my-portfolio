@@ -22,7 +22,6 @@ const NaveBar = ({ children }) => {
           <li><Link className='kib_inside_effect text-[#8a92a5] mt-4' to='/About'> About me </Link></li>
           <li><Link className='kib_inside_effect text-[#8a92a5] mt-4' to='/Blogs'> My Blogs </Link></li>
         </ul>
-
       </div>
     </div>
   );
