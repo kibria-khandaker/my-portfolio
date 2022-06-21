@@ -16,7 +16,7 @@ const Home = () => {
                 </div>
                 <div className=' mx-5 md:mx-5  flex flex-col text-center '>
                     <div className='kib_box_shadow pt-5 pb-7 px-6 md:px-8 rounded-lg  text-[#7a8190]'>
-                        <h2 className=' font-bold md:text-2xl pb-3'>  <span className='animate-pulse'>Hello</span>, I'm Golam Kibria </h2>
+                        <h2 className=' font-bold md:text-2xl pb-3'>  Hello, I'm Golam Kibria </h2>
                         <p className='md:font-bold my-4 '> Front-End Developer | MERN Stack Developer </p>
                         <a target='_blank' rel="noreferrer" className='kib_inside_effect  rounded mt-5 inline-block py-3 px-3' href="https://drive.google.com/file/d/1VqNF-KdocXEGAv-zO534lSdkuimMxlNA/view?usp=sharing" > Download Resume </a>
                     </div>
